@@ -1667,11 +1667,11 @@ pre .javascript .function {
   width: 0;
   z-index: 1040;
   box-shadow: inset 0 2px 6px #000;
-  background: #222;
+  background: url("/images/toggle.jpg");
   -webkit-transform: translateZ(0);
 }
 .sidebar a {
-  color: #999;
+  color: rgba(255,240,245,0.7);
   border-bottom-color: #555;
 }
 .sidebar a:hover {
@@ -1690,7 +1690,7 @@ pre .javascript .function {
 .sidebar-inner {
   position: relative;
   padding: 20px 10px;
-  color: #999;
+  background-color: rgba(255,240,245,0.4);
   text-align: center;
 }
 .site-overview-wrap {
@@ -1707,7 +1707,7 @@ pre .javascript .function {
   width: 14px;
   height: 14px;
   padding: 5px;
-  background: #222;
+  background: url("/images/toggle.jpg");
   line-height: 0;
   z-index: 1050;
   cursor: pointer;
@@ -1729,7 +1729,7 @@ pre .javascript .function {
   vertical-align: top;
   height: 2px;
   width: 100%;
-  background: #fff;
+  background: rgba(255,240,245,0.7);
   margin-top: 3px;
 }
 .sidebar-toggle-line:first-child {
@@ -1742,6 +1742,10 @@ pre .javascript .function {
   max-width: 120px;
   height: auto;
   border: 1px solid #eee;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  transition: 1.4s all;
 }
 .site-author-name {
   margin: 0;
@@ -1823,7 +1827,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6bc1ff;
+  background: #2f87da;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1884,7 +1888,7 @@ pre .javascript .function {
 }
 .post-toc-empty {
   font-size: 14px;
-  color: #666;
+  color: $LavenderBlush;
 }
 .post-toc-wrap {
   overflow: hidden;
